@@ -9,7 +9,7 @@ Original file is located at
 #APP BUILDING:
 """
 
-from pyngrok import ngrok
+#from pyngrok import ngrok
 
 import nltk
 nltk.download('stopwords')
