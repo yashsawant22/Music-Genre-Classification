@@ -18,7 +18,7 @@ from nltk import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from sklearn.utils import shuffle
 from nltk.corpus import stopwords
-
+nltk.download('punkt')
 
 stop = list(set(stopwords.words('english'))) # stopwords
 wnl = WordNetLemmatizer() # lemmatizer
