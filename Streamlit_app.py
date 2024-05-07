@@ -12,8 +12,6 @@ Original file is located at
 #from pyngrok import ngrok
 
 import nltk
-nltk.download('stopwords')
-
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import Pipeline
 from nltk import word_tokenize
@@ -67,8 +65,8 @@ def tokenizer(x): # custom tokenizer
         if len(w) > 2 and w.isalnum() # only words that are > 2 characters
       )
 
-lr_model = open('genrepredict.pkl','rb')
-classifier = pickle.load(lr_model)
+#lr_model = open('genrepredict.pkl','rb')
+#classifier = pickle.load(lr_model)
 
 
 PAGE_CONFIG = {"page_title":"Song Genre Prediction from Lyrics","page_icon":"🎸","layout":"centered"}
