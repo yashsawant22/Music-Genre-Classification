@@ -48,7 +48,7 @@ import pandas as pd
 import numpy as np
 from keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
-from swachhdata.text import *
+#from swachhdata.text import *
 import pickle
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import Pipeline
