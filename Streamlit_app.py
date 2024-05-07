@@ -78,7 +78,7 @@ def main():
     st.title("Genre Classifier Using Song Lyrics")
     html_temp = """
     <div style="background-color:tomato;padding:10px">
-    <h2 style="color:white;text-align:center;">This app uses NLP to predict the genre of a song just by reading the lyrics</h2>
+    <h2 style="color:white;text-align:center;">Predicting song genre using Naive baiyes classifier</h2>
     </div>
     """
     st.markdown(html_temp,unsafe_allow_html=True)
