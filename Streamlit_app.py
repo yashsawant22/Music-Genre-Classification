@@ -34,7 +34,7 @@ def tokenizer(x): # custom tokenizer
 
 import pickle
 
-lr_model = open('/content/sample_data/genrepredict.pkl','rb')
+lr_model = open('Song Genre NLP Classifier/genrepredict.pkl.zip','rb')
 classifier = pickle.load(lr_model)
 
 #Commented out IPython magic to ensure Python compatibility.
