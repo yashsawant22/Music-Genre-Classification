@@ -37,7 +37,7 @@ import pickle
 import zipfile
 archive = zipfile.ZipFile('Song Genre NLP Classifier/genrepredict.pkl.zip','r')
 
-lr_model = archive.read('genrepredict.pkl')
+lr_model = archive.open('genrepredict.pkl','r')
 #lr_model = open('Song Genre NLP Classifier/genrepredict.pkl.zip','rb')
 classifier = pickle.load(lr_model)
 
