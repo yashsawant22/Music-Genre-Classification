@@ -2,7 +2,7 @@
 You can access the app from this url  --> https://music-genre-classifier.streamlit.app/
 ## Description
 
-Lyrics Genre Classification is a project that leverages natural language processing techniques to classify the genre of a song based on its lyrics. The project uses machine learning models to automatically categorize songs into predefined genres such as Pop, Rock, Hip-Hop, Country, and more. This can be a valuable tool for music enthusiasts, recommendation systems, and music streaming platforms.
+Lyrics Based Genre Classification is a project that leverages natural language processing techniques to classify the genre of a song based on its lyrics. The project uses machine learning models to automatically categorize songs into predefined genres such as Pop, Rock, Hip-Hop, Country, and more. This can be a valuable tool for music enthusiasts, recommendation systems, and music streaming platforms.
 
 ## Features
 
